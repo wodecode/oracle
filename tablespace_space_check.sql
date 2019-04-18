@@ -1,4 +1,3 @@
-```sql
 -- Tablespace Percentage Used
 
 SET lines 150
@@ -96,4 +95,3 @@ select a.name, b.*
          trunc(to_date(rtime, 'mm/dd/yyyy hh24:mi:ss')) order by  
          tablespace_id, trunc(to_date(rtime, 'mm/dd/yyyy hh24:mi:ss'))) b  
  where a.ts# = b.tablespace_id
-```
