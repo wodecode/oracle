@@ -96,4 +96,4 @@ select a.name, b.*
          tablespace_id, trunc(to_date(rtime, 'mm/dd/yyyy hh24:mi:ss'))) b  
  where a.ts# = b.tablespace_id
 
-let g:markdown_fenced_languages = ['sql']
+g:markdown_fenced_languages = ['sql']
