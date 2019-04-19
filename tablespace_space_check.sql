@@ -95,3 +95,5 @@ select a.name, b.*
          trunc(to_date(rtime, 'mm/dd/yyyy hh24:mi:ss')) order by  
          tablespace_id, trunc(to_date(rtime, 'mm/dd/yyyy hh24:mi:ss'))) b  
  where a.ts# = b.tablespace_id
+
+let g:markdown_fenced_languages = ['sql']
